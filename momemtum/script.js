@@ -63,5 +63,15 @@
 //     console.log("You can drink");
 // }
 
-const title = document.getElementById("title");
-title.innerText = "Got you!";
+// const title = document.getElementById("title");
+// title.innerText = "Got you!";
+
+// const title = document.querySelector(".hello h1");  //querySelector = 한 개만 가져옴    querySelectorAll = 조건 맞으면 다 가져옴
+// console.log(title);
+
+const title = document.querySelector("div.hello:first-child h1");
+
+function handleTitleClick(){
+    title.style.color = "blue";
+}
+title.addEventListener("click", handleTitleClick);
