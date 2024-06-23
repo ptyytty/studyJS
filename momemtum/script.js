@@ -69,22 +69,16 @@
 // const title = document.querySelector(".hello h1");  //querySelector = 한 개만 가져옴    querySelectorAll = 조건 맞으면 다 가져옴
 // console.log(title);
 
-const title = document.querySelector("div.hello:first-child h1");
-
-console.dir(title);
+const h1 = document.querySelector("div.hello:first-child h1");
 
 function handleTitleClick(){
-    title.style.color = "blue";
+    const clickedClass = "active";
+    if(h1.className === "clickedClass"){
+        h1.className = "";
+    }else{
+        h1.className = "clickedClass";
+    }
 }
 
-function handleMouseEnter(){
-    title.innerText = "Mouse is here!";
-}
+h1.addEventListener("click", handleTitleClick);
 
-function handleMouseLeave(){
-    title.innerText = "Mouse is gone!";
-}
-
-title.addEventListener("click", handleTitleClick);
-title.addEventListener("mouseenter",handleMouseEnter)
-title.addEventListener("mouseleave",handleMouseLeave)
