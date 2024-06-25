@@ -1,14 +1,28 @@
-const loginForm = document.getElementById("login-form");
-const loginInput = loginForm.querySelector("input");
-const loginButton = loginForm.querySelector("button");
+const loginForm = document.querySelector("#login-form");
+const loginInput = loginForm.querySelector("#login-form input");
+const greeting = document.querySelector("#greeting");
 
-function onLoginBtnClick(){
+const HIDDEN_CLASSNAME = "hidden";
+const USERNAME_KEY = "username";
+
+function onLoginSubmit(event){
+    event.preventDefault();     //브라우저 기본 동작 막기
+    loginForm.classList.add(HIDDEN_CLASSNAME);
     const username = loginInput.value;
-    if(username === ""){
-        alert("Please write your name");
-    }else if(username.length > 15){
-        alert("Your name is too long");
-    }
+    localStorage.setItem("USERNAME_KEY", username);
+    paintGreetings(username);
 }
 
-loginButton.addEventListener("click", onLoginBtnClick);
+function paintGreetings(username){
+    greeting.innerText = `Hello ${username}`;
+    greeting.classList.remove(HIDDEN_CLASSNAME);
+}
+
+const savedUsername = localStorage.getItem("USERNAME_KEY");
+
+if(savedUsername === null){
+    loginForm.classList.remove(HIDDEN_CLASSNAME);
+    loginForm.addEventListener("submit", onLoginSubmit);
+}else{
+    paintGreetings(savedUsername);
+}
