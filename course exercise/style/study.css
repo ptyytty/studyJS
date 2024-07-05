@@ -1,0 +1,116 @@
+.uber-button{
+    display: block;
+    background-color: black;
+    color: white;
+    border: none;
+    height: 40px;
+    width: 120px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: opacity 0.15s;
+}
+.uber-button:hover{
+    opacity: 0.7;
+}
+
+.amazon-button{
+    display: block;
+    background-color: rgb(255, 247, 0);
+    border:none;
+    border-radius: 20px;
+    font-weight: bold;
+    height:40px;
+    width: 200px;
+    cursor: pointer;
+    transition: background-color 0.15s;
+    margin-bottom: 20px;
+}
+.amazon-button:hover{
+    background-color: rgb(234, 227, 31);
+}
+
+.github-button{
+    display: block;
+    background-color: rgb(46, 164, 79);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    height: 34px;
+    width: 80px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: box-shadow 0.15s;
+}
+.github-button:hover{
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.15);
+}
+
+.bootstrap-start{
+    background-color: rgb(124, 82, 179);
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    height: 40px;
+    width: 110px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: background-color 0.15s;
+}
+.bootstrap-start:hover{
+    background-color: rgb(109, 56, 178);
+}
+.bootstarap-download{
+    background-color: white;
+    color: rgb(93, 93, 93);
+    font-weight: bold;
+    border-style: solid;
+    border-color: rgb(93, 93, 93);
+    border-width: 1px;
+    border-radius: 2px;
+    height: 40px;
+    width: 110px;
+    cursor: pointer;
+    transition: background-color 0.15s, color 0.15s;
+}
+.bootstarap-download:hover{
+    background-color: rgb(93, 93, 93);
+    color: white;
+}
+
+.linkedln-apply{
+    background-color: rgb(10, 102, 194);
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    width: 220px;
+    cursor: pointer;
+    transition: background-color 0.15s;
+    margin-bottom: 20px;
+}
+.linkedln-apply:hover{
+    background-color: rgb(9, 79, 149);
+}
+.linkedln-save{
+    background-color: white;
+    color: rgb(10, 102, 194);
+    font-family: Arial;
+    font-weight: bold;
+    border-style: solid;
+    border-color: rgb(10, 102, 194);
+    border-width: 1px;
+    border-radius: 20px;
+    height: 40px;
+    width: 70px;
+    cursor: pointer;
+    transition: background-color 0.15s, border-width 0.1s;
+}
+.linkedln-save:hover{
+    background-color: rgb(221, 244, 255);
+    border-width: 2px;
+}
