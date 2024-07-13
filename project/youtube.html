@@ -12,15 +12,26 @@
                 display: block;
             }
 
-            .video-title{
-                width: 300px;
-            }
-
             .video-preview{
                 width: 300px;
                 display: inline-block;
                 vertical-align: top;
                 margin-right: 15px;
+            }
+
+            .channel-pictures{
+                display: inline-block;
+                vertical-align: top;
+                width: 50px;
+            }
+
+            .video-info{
+                display: inline-block;
+                width: 200px;
+            }
+
+            .profile-picture{
+                width: 100%;
             }
         </style>
     </head>
@@ -28,17 +39,30 @@
         <input class="search-bar" type="text" placeholder="Search">
 
         <div class="video-preview">
-            <img class="thumbnail" src="thumnails/thumbnail-1.webp">
+            <div>
+                <img class="thumbnail" src="thumnails/thumbnail-1.webp">
+            </div>
+            <div>
+                <div class="channel-pictures">
+                    <img class="profile-picture" src="chennel-pictures/channel-1.jpeg">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        Talking Tech and AI with Google CEO Sundar Pichai!
+                    </p>
+                    <p class="video-author">
+                        Marques Brownlee
+                    </p>
+                    <p class="video-stats">
+                        3.4M views &#183; 6 months ago
+                    </p>
+                </div>
+                
+                
+            </div>
+            
 
-            <p class="video-title">
-                Talking Tech and AI with Google CEO Sundar Pichai!
-            </p>
-            <p class="video-author">
-                Marques Brownlee
-            </p>
-            <p class="video-stats">
-                3.4M views &#183; 6 months ago
-            </p>
+
         </div>
 
         <div class="video-preview">
