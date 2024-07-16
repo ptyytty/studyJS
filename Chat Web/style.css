@@ -1,22 +1,28 @@
-.main-title{
-    text-align: center;
-    background-color: black;
-    color: white;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    font-weight: bold;
-    font-family: Arial;
-}
-
-.product-list{
+.main-top{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    height: 300px;
-    overflow: hidden;
+    grid-template-columns: 30% 70%;
+    margin-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
-.product{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+.logo{
+
+}
+
+.dashbord{
+    font-family: Roboto;
+    color: gray;
+    text-align: right;
+    font-size: 14px;
+    position: relative;
+    cursor: pointer;
+}
+
+.login,
+.join,
+.cart,
+.order{
+    padding-left: 10px;
+    padding-right: 10px;
 }
