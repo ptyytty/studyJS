@@ -3,6 +3,8 @@
     padding: 0;
 }
 
+
+
 .top_banner{
     padding-top: 10px;
     padding-bottom: 10px;
@@ -31,18 +33,36 @@
     background-color: gray;
 }
 
+.menu_shape{
+    padding-left: 600px;
+    padding-right: 600px;
+    
+}
+
 .menu_left{
     float: left;
     position: relative;
     width: 600px;
+    left: -600px;
+    margin-right: -600px;
     background-color: red;
+    list-style-type: none;
+}
+
+.article{
+    float: left;
+    width: 100%;
+    
 }
 
 .menu_right{
+    float: left;
     position: relative;
     width: 600px;
     left: 600px;
+    margin-left: -600px;
     background-color: blue;
+    list-style-type: none;
 }
 
 .home{
