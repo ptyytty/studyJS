@@ -36,12 +36,18 @@
 .menu_shape{
     padding-left: 600px;
     padding-right: 600px;
-    
+    font-family: Roboto;
+    font-size: 9px;
+    color: rgb(53, 53, 53);
+    top: 0;
+    height: 100%;
 }
 
 .menu_left{
     float: left;
     position: relative;
+    top: 0;
+    height: 100%;
     width: 600px;
     left: -600px;
     margin-right: -600px;
@@ -66,6 +72,9 @@
 }
 
 .home{
-    float: left;
-    position: relative;
+    text-decoration-line: none;
+    top: 0;
+    height: 100%;
+    text-align: center;
+    width: 35px;
 }
