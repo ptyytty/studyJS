@@ -1,3 +1,7 @@
+body{
+    margin-bottom: 1000px;
+}
+
 .lesson6{
     font-family: Montserrat;
     font-weight: bold;
@@ -22,12 +26,255 @@
     border-width: 1px;
     border-color: gray;
 }
+.lesson7-d::placeholder{
+    padding-left: 10px;
+}
 
 .lesson7-e{
-    height: 30px;
+    height: 35px;
     width: 400px;
-    font-size: 15px;
+    font-size: 14px;
     border-radius: 15px;
     border: none;
-    box-shadow: inset 0 5px 20px rgba(0, 0, 0, 0.15);
+    box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.15);
+    margin-bottom: 30px;
+}
+.lesson7-e::placeholder{
+    padding-left: 10px;
+}
+
+.lesson7f{
+    font-family: Arial;
+    color: gray;
+    margin-bottom: 30px;
+}
+
+.lesson7f-paragraph{
+    margin-bottom: 5px;
+}
+
+.lesson7f-input{
+    height: 20px;
+    width: 400px;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 2px;
+}
+
+.lesson7f-button{
+    height: 50px;
+    width: 400px;
+    border: none;
+    border-radius: 25px;
+    background-color: rgb(59, 59, 207);
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    transition: opacity 0.15s;
+}
+.lesson7f-button:hover{
+    opacity: 0.8;
+}
+
+.lesson7g{
+    font-family: Arial;
+}
+/*vertical-align은 주변 요소들과 함께 써야 적용된다*/
+.lesson7g-image{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.lesson7g-content{
+    padding-left: 10px;
+    height: 60px;
+    width: 250px;
+    border: none;
+    font-size: 18px;
+    vertical-align: top;
+    outline: none;
+    vertical-align: middle;
+}
+
+.lesson7g-tweet{
+    height: 36px;
+    width: 70px;
+    background-color: rgb(104, 138, 237);
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 18px;
+    border: none;
+    cursor: pointer;
+    vertical-align: middle;
+    transition: opacity 0.15s;
+}
+.lesson7g-tweet:hover{
+    opacity: 0.8;
+}
+
+.lesson8a{
+    font-family: Arial;
+    font-size: 14px;
+    color: gray;
+}
+
+.lesson8b-content{
+    display: inline-block;
+    width: 200px;
+    vertical-align: middle;
+}
+
+.lesson8c-logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lesson8c-searchbar{
+    display: block;
+    height: 35px;
+    width: 600px;
+    font-size: 14px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    text-indent: 20px;
+    box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.15);
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.ls9h-google{
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.ls9h-button{
+    font-family: Arial;
+    font-weight: bold;
+    height: 40px;
+    width: 120px;
+    vertical-align: middle;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.lesson8d{
+    font-family: Roboto;
+    color: gray;
+    margin-bottom: 50px;
+}
+
+.lesson8d-firstname{
+    display: inline-block;
+    height: 30px;
+    width: 120px;
+    text-indent: 10px;
+    border-radius: 4px;
+    border-width: 1px;
+    border-style: solid;
+    outline: none;
+    margin-right: 2px;
+}
+
+.lesson8d-lastname{
+    display: inline-block;
+    height: 30px;
+    width: 120px;
+    text-indent: 10px;
+    border-radius: 4px;
+    border-width: 1px;
+    border-style: solid;
+    outline: none;
+    margin-left: 2px;
+}
+
+.lesson8d-email{
+    display: block;
+    margin-top: 14px;
+    height: 30px;
+    width: 254px;
+    text-indent: 10px;
+    border-radius: 4px;
+    border-width: 1px;
+    border-style: solid;
+    outline: none;
+}
+
+.lesson8d-button{
+    height: 40px;
+    width: 254px;
+    margin-top: 14px;
+    background-color: rgb(64, 96, 192);
+    color: white;
+    border: none;
+    border-style: solid;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: opacity 0.15s;
+}
+.lesson8d-button:hover{
+    opacity: 0.9;
+}
+
+.lesson8e{
+    font-family: Arial;
+}
+
+.lesson8e-content{
+    font-size: 35px;
+}
+
+.lesson8e-location{
+    display: block;
+    height: 36px;
+    width: 300px;
+    border: none;
+    background-color: rgba(201, 201, 201, 0.15);
+    margin-bottom: 10px;
+    outline: none;
+    text-indent: 10px;
+}
+
+.lesson8e-destination{
+    display: block;
+    height: 36px;
+    width: 300px;
+    border: none;
+    background-color: rgba(201, 201, 201, 0.15);
+    margin-bottom: 40px;
+    outline: none;
+    text-indent: 10px;
+}
+
+.lesson8e-request{
+    display: inline-block;
+    height: 36px;
+    width: 110px;
+    vertical-align: middle;
+    margin-right: 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.lesson8e-later{
+    display: inline-block;
+    height: 36px;
+    width: 140px;
+    vertical-align: middle;
+    background-color: rgba(201, 201, 201, 0.15);
+    color: black;
+    border: none;
+    cursor: pointer;
 }
