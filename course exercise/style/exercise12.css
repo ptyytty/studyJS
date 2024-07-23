@@ -1,0 +1,116 @@
+.ls12a{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.ls12b{
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+    margin-bottom: 30px;
+}
+
+.ls12c{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.ls12d{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: gray;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ls12e{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(130, 130, 130, 0.555);
+    border-radius: 4px;
+    font-family: Arial;
+    font-weight: 10;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.ls12e-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 14px;    
+}
+
+.ls12e-menu{
+    align-content: center;
+}
+
+.ls12e-number{
+    background-color: rgba(16, 72, 255, 0.71);
+    width: 44px;
+    height: 28px;
+    border-radius: 19px;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    align-content: center;
+}
+
+.ls12f{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: Arial;
+    color: white;
+    background-color: rgb(109, 52, 163);
+    height: 50px;
+    border: none;
+    border-radius: 1px;
+    padding: 7px;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+.ls12f-home{
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 10px;
+    width: 100px;
+}
+
+.ls12f-search{
+    height: 28px;
+    width: 600px;
+    border: none;
+    border-radius: 14px;
+    text-indent: 16px;
+    outline: none;
+    justify-content: left;
+}
+
+.ls12f-button{
+    height: 36px;
+    width: 100px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 2px;
+    color: white;
+    background-color: rgb(109, 52, 163);
+    cursor: pointer;
+    transition: background-color 0.8s color 0.8s;
+}
+.ls12f-button:hover{
+    background-color: white;
+    color: rgb(109, 52, 163);
+}
