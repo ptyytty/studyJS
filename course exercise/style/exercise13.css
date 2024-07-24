@@ -1,0 +1,12 @@
+.ls13a{
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    margin-bottom: 30px;
+}
+
+.ls13b{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

@@ -108,7 +108,7 @@
     color: white;
     background-color: rgb(109, 52, 163);
     cursor: pointer;
-    transition: background-color 0.8s color 0.8s;
+    transition: background-color 0.15s, color 0.15s;
 }
 .ls12f-button:hover{
     background-color: white;
